@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(76, 76, 78);
+    color: aliceblue;
+}
+
+header{
+    background-color: rgb(53, 52, 52);
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+nav .navegacao{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 52, 52);
+    color: aliceblue;
+    align-items: center;
+    
+}
+
+nav {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+nav li, a{
+    display: inline;
+    color: aliceblue;
+    padding: 1px;
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav h2{
+    margin-left: 10px;
+}
+
+.article {
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img{
+    width: 100%;
+}
+
+.article article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.article article {
+     margin-bottom: 16px;           
+}
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.article article a {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+
+.formulario h2{
+    font-size: 30px;
+    /*border-top: 2px solid black;*/
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.formulario{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 30px;
+    
+}
+
+.formulario input{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.formulario input text{
+    font-size: 20px;
+}
+textarea{
+    width: 403px;
+    font-size: 18px;
+    resize: none;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.formulario button{
+    width: 100px ;
+    display: flex;
+    font-size: 15px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.formulario button:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.4s;
+}
+
+footer{
+    background-color: rgb(53, 52, 52);
+    margin-top: 20px;
+
+}
+
+footer h4{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    font-size: 13px;
+    color: rgb(128, 127, 127);
+}
+
+#Esportes, #Economia, #Saúde, #jogos{
+    border-bottom: 2px solid black;
+}
