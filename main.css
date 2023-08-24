@@ -5,6 +5,39 @@ body{
 
 header{
     background-color: rgb(53, 52, 52);
+
+}
+.fixado{
+    background-color: rgb(53, 52, 52);
+    position: fixed;
+    width: 100%;
+   
+   
+
+}
+
+.sobre{
+    display: flex;
+    background-color: brown;
+    
+}
+.sobre img{
+    width: 650px;
+    margin-top: 100px;
+}
+
+.sobre p{
+    margin-top: 200px;
+    
+}
+.sobre h2{
+    
+    
+    margin-top: 100px;
+    margin-left: 15px;
+    display: flex;
+    
+
 }
 
 .container{
@@ -35,6 +68,10 @@ nav li, a{
     list-style: none;
     text-decoration: none;
     font-size: 18px;
+}
+
+nav li, a:hover{
+    color: red;
 }
 nav h2{
     margin-left: 10px;
@@ -150,4 +187,45 @@ footer h4{
 
 #Esportes, #Economia, #Saúde, #jogos{
     border-bottom: 2px solid black;
+
+}
+
+#Saúde{
+    background-color: rgb(107, 90, 57);
+    color: aliceblue;
+
+}
+#Economia{
+    background-color: rgb(104, 76, 131);
+
+}
+#jogos{
+    background-color: rgb(92, 158, 158);
+    color: rgb(255, 253, 253);
+}
+#Esportes{
+    background-color: rgb(104, 92, 102);
+}
+
+#Esportes a{
+    background-color: green;
+}
+#Saúde a{
+    background-color: rgb(0, 81, 128);
+}
+#jogos a{
+    background-color: rgb(104, 126, 24);
+}
+
+h3{
+    color: black;
+    margin-left: 5px;
+    
+}
+p{
+    margin-left: 5px;
+}
+
+.creation-date{
+    margin-left: 5px;
 }
